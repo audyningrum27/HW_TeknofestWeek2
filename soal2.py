@@ -19,7 +19,7 @@ for n in arr:
     j += 1
     na = int(n[0])
     nb = int(n[1])
-    if (((na or nb) or (na and nb))) < 0:
+    if ((na or nb) or (na and nb)) < 0:
         print("Pertandingan selesai")
         break
     elif na > nb:
